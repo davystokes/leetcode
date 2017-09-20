@@ -28,3 +28,20 @@ target = 9
 a=[]
 a=Solution.twoSum(a,nums,target)
 print(a)
+
+'''
+class Solution(object):
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        dic = {}
+        for i, num in enumerate(nums):
+            if num in dic:
+                return [dic[num], i]
+            else:
+                dic[target - num] = i
+ '''
+# enumerate（）函数很好的可以把数组中的索引与对应项调出来；

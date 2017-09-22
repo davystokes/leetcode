@@ -44,4 +44,4 @@ class Solution(object):
             else:
                 dic[target - num] = i
  '''
-# enumerate（）函数很好的可以把数组中的索引与对应项调出来；
+# enumerate（）函数很好的可以把数组中的索引与对应项调出来； if num[i] in buff_dict:  就在询问nums[i]是否存在于buff_dict的key值中

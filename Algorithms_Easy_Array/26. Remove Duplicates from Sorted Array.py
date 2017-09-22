@@ -31,6 +31,7 @@ a = Solution.removeDuplicates(a,nums)
 print(a)
 
 '''
+这是两个问题，移除和返回
 if not a:
     return 0    这句话的含义是： 一个空 list 本身等同于 False  所如果a不是一个空文件
 A[newTail] = A[i]   意义是永远让下一个元素与之前最近不相同的元素比较
